@@ -17,3 +17,7 @@
 17. Display current time
 18. Display system IP address
 19. Make a copy of a file (a.txt)echo
+20. Copy a directory.
+21. Move a directory.
+22. Rename a file.
+23. Combine & merge a directory.
