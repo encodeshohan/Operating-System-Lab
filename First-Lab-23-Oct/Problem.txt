@@ -20,4 +20,4 @@
 20. Copy a directory.
 21. Move a directory.
 22. Rename a file.
-23. Combine & merge a directory.
+23. Combine & merge a files.
