@@ -1,0 +1,345 @@
+~$ pwd
+/home/user
+~$ mkdir Folder1
+~$ pwd
+/home/user
+~$ cd Folder1
+~/Folder1$ touch a1.txt
+~/Folder1$ dir
+a1.txt
+~/Folder1$ touch a2.txt
+~/Folder1$ echo Hello > a1.txt
+~/Folder1$ echo World > a2.txt
+~/Folder1$ cat a1.txt
+Hello
+~/Folder1$ cat a2.txt
+World
+~/Folder1$ cat a1.txt a2.txt >newtext.txt
+~/Folder1$ cat newtext.txt
+Hello
+World
+~/Folder1$ echo apple >> newtext.txt
+~/Folder1$ cat newtext.txt
+Hello
+World
+apple
+~/Folder1$ echo >> The United States is just days away from its presidential election, with Kamala Harris and Donald Trump focusing their campaigns on crucial swing states, where every vote matters.
+~/Folder1$ echo >> The United States is just days away from its presidential election, with Kamala Harris and Donald Trump focusing their echo >> The United States is just days away from its presidential election, with Kamala Harris and Donald Trump focusing their echo The United States is just days away from its presidential election, with Kamala Harris and Donald Trump focusing their campaigns on crucial swing states, where every vote matters. >> newtext.txt
+~/Folder1$ cat newtext.txt
+Hello
+World
+apple
+The United States is just days away from its presidential election, with Kamala Harris and Donald Trump focusing their campaigns on crucial swing states, where every vote matters.
+~/Folder1$ cat newtext.txt | less
+~/Folder1$ cat -n newtext.txt
+     1  Hello
+     2  World
+     3  apple
+     4  The United States is just days away from its presidential election, with Kamala Harris and Donald Trump focusing their campaigns on crucial swing states, where every vote matters.
+~/Folder1$ cd ..
+~$ pwd
+/home/user
+~$ mkdir Folder2
+~$ pwd
+/home/user
+~$ cd Folder2
+~/Folder2$ touch .abcd.txt
+~/Folder2$ echo Hello > abcd.txt
+~/Folder2$ ls
+abcd.txt
+~/Folder2$ ls -a
+.  ..  .abcd.txt  abcd.txt
+~/Folder2$ cat abcd.txt
+Hello
+~/Folder2$ cat >exe
+^Z
+[1]+  Stopped                 cat > exe
+~/Folder2$ ls
+abcd.txt  exe
+~/Folder2$ cat exe
+~/Folder2$ cat > hgfdsygewdjhgdsf
+^Z  
+[2]+  Stopped                 cat > hgfdsygewdjhgdsf
+~/Folder2$ cat kjuydhgfkjghfkg>>exe
+cat: kjuydhgfkjghfkg: No such file or directory
+~/Folder2$ cat kjhgdfygchdjgv > exe
+cat: kjhgdfygchdjgv: No such file or directory
+~/Folder2$ touch ex
+~/Folder2$ cat jhgdsfytgefdvhy > ex
+cat: jhgdsfytgefdvhy: No such file or directory
+~/Folder2$ ls
+abcd.txt  ex  exe  hgfdsygewdjhgdsf
+~/Folder2$ echo jhfgewdytfgjhd >> ex
+~/Folder2$ cat ex
+jhfgewdytfgjhd
+~/Folder2$ cd ..
+~$ pwd
+/home/user
+~$ mkdir CP
+~$ cd CP
+~/CP$ cd ..
+~$ pwd
+/home/user
+~$ cd cp
+bash: cd: cp: No such file or directory
+~$ cd CP
+~/CP$ mkdir dt1 dt2
+~/CP$ ls
+dt1  dt2
+~/CP$ cd dt1
+~/CP/dt1$ tiuch xy.txt
+bash: tiuch: command not found
+~/CP/dt1$ tiuch xy.txt
+bash: tiuch: command not found
+~/CP/dt1$ touch xy.txt
+~/CP/dt1$ cp xy.txt ../dt2/
+~/CP/dt1$ lks
+bash: lks: command not found
+~/CP/dt1$ ls
+xy.txt
+~/CP/dt1$ cd ..
+~/CP$ cd dt2
+~/CP/dt2$ ls
+xy.txt
+~/CP/dt2$ cd ..
+~/CP$ mkdir dt3
+~/CP$ ls
+dt1  dt2  dt3
+~/CP$ cp -r dt1 dt3
+~/CP$ cd dt3
+~/CP/dt3$ ls
+dt1
+~/CP/dt3$ cd dt3
+bash: cd: dt3: No such file or directory
+~/CP/dt3$ cd dt1
+~/CP/dt3/dt1$ cd ..
+~/CP/dt3$ cd ..
+~/CP$ cd dt1
+~/CP/dt1$ mv xy.txt ab.txt
+~/CP/dt1$ ls
+ab.txt
+~/CP/dt1$ cd ..
+~/CP$ mkdir dt4
+~/CP$ mkdir dt5
+~/CP$ cd dt4
+~/CP/dt4$ touch x1.txt
+~/CP/dt4$ cd ..
+~/CP$ mv x1.txt dt5
+mv: cannot stat 'x1.txt': No such file or directory
+~/CP$ pwd
+/home/user/CP
+~/CP$ mv dt5 dt4
+~/CP$ ls
+dt1  dt2  dt3  dt4
+~/CP$ cd dt4
+~/CP/dt4$ ls
+dt5  x1.txt
+~/CP/dt4$ cd dt5
+~/CP/dt4/dt5$ ls
+~/CP/dt4/dt5$ ls
+~/CP/dt4/dt5$ dir
+~/CP/dt4/dt5$ ls -a
+.  ..
+~/CP/dt4/dt5$ cd ..
+~/CP/dt4$ ls
+dt5  x1.txt
+~/CP/dt4$ rm x1.txt
+~/CP/dt4$ ls
+dt5
+~/CP/dt4$ cd ..
+~/CP$ ls
+dt1  dt2  dt3  dt4
+~/CP$ rm -d dt3
+rm: cannot remove 'dt3': Directory not empty
+~/CP$ mkdir dt6
+~/CP$ ls
+dt1  dt2  dt3  dt4  dt6
+~/CP$ mr -d dt6
+bash: mr: command not found
+~/CP$ rm -d dt6
+~/CP$ ls
+dt1  dt2  dt3  dt4
+~/CP$ rm -r dt3
+~/CP$ ls
+dt1  dt2  dt4
+~/CP$  ?>yftujyujkjhkkkkkfujkfghcjfjm~$ 
+~$ 
+~$ pwd
+/home/user
+~$ ls
+CP  Folder1  Folder2  lin.term
+~$ pwd]
+bash: pwd]: command not found
+~$ pwd
+/home/user
+~$ mkdir Task
+~$ pwd
+/home/user
+~$ touch file1.txt
+~$ mkdie mydir
+bash: mkdie: command not found
+~$ mkdir mydir
+~$ ls
+CP  Folder1  Folder2  Task  file1.txt  lin.term  mydir
+~$ pwd
+/home/user
+~$ cd Task
+~/Task$ pwd
+/home/user/Task
+~/Task$ touch file1.txt
+~/Task$ ls
+file1.txt
+~/Task$ mkdir mydir 
+~/Task$ touch Hello World > output.txt
+~/Task$ cat output.txt
+~/Task$ ls
+Hello  World  file1.txt  mydir  output.txt
+~/Task$ rm Hello World
+~/Task$ ls
+file1.txt  mydir  output.txt
+~/Task$ echo Hello World > output.txt
+~/Task$ cat output.txt
+Hello World
+~/Task$ echo Appending New Line >> outgput.txt
+~/Task$ cat output.txt
+Hello World
+~/Task$ ls
+file1.txt  mydir  outgput.txt  output.txt
+~/Task$ rm outgput.txt
+~/Task$ ls
+file1.txt  mydir  output.txt
+~/Task$ echo Appending New Line >> output.txt
+~/Task$ cat output.txt
+Hello World
+Appending New Line
+~/Task$ pwd
+/home/user/Task
+~/Task$ echo "New file text jhgdfhv" > file2.txt
+~/Task$ cat file2.txt
+New file text jhgdfhv
+~/Task$ cat file2.txt output.txt > combine.txt
+~/Task$ cat combine.txt
+New file text jhgdfhv
+Hello World
+Appending New Line
+~/Task$ cat combine.txt | less
+
+[1]+  Stopped                 cat combine.txt | less
+~/Task$ pwd
+/home/user/Task
+~/Task$ ls
+combine.txt  file1.txt  file2.txt  mydir  output.txt
+~/Task$ cat file2.txt
+New file text jhgdfhv
+~/Task$ cp file2.txt ..d2/output.txt
+cp: cannot create regular file '..d2/output.txt': No such file or directory
+~/Task$ cp file2.txt output.txt
+~/Task$ cat output.txt
+New file text jhgdfhv
+~/Task$ cat file2.txt
+New file text jhgdfhv
+~/Task$ echo Hello World > output.txt
+~/Task$ echo >> Apending Line >> output.txt
+~/Task$ cat coutput.txt
+cat: coutput.txt: No such file or directory
+~/Task$ cat output.txt
+Hello World
+Line
+~/Task$ cat file2.txt output.txt
+New file text jhgdfhv
+Hello World
+Line
+~/Task$ cat output.txt
+Hello World
+Line
+~/Task$ cat file2
+cat: file2: No such file or directory
+~/Task$ cat file2.tx
+cat: file2.tx: No such file or directory
+~/Task$ cat file2.txt
+New file text jhgdfhv
+~/Task$ cat file2.txt >> output.txt
+~/Task$ cat output.txt
+Hello World
+Line
+New file text jhgdfhv
+~/Task$ cat combine.txt
+New file text jhgdfhv
+Hello World
+Appending New Line
+~/Task$ cat -n combine.txt
+     1  New file text jhgdfhv
+     2  Hello World
+     3  Appending New Line
+~/Task$ touch .hiddenfile
+~/Task$ cat output.txt | sort
+Hello World
+Line
+New file text jhgdfhv
+~/Task$ sort output.txt
+Hello World
+Line
+New file text jhgdfhv
+~/Task$ touch file1_backup.txt
+~/Task$ cat file1.txt
+~/Task$ echo jhgdsfjhds > file1.txt
+~/Task$ cat file1.txt
+jhgdsfjhds
+~/Task$ cp file1.txt ../d2/file1_backup
+cp: cannot create regular file '../d2/file1_backup': No such file or directory
+~/Task$ cp file1.txt file1_backup.txt
+~/Task$ cat file1_backup.txt
+jhgdsfjhds
+~/Task$ cat file1.txt
+jhgdsfjhds
+~/Task$ cp output.txt file2.txt ../d/mydir
+cp: target '../d/mydir' is not a directory
+~/Task$ ls
+Apending  combine.txt  file1.txt  file1_backup.txt  file2.txt  mydir  output.txt
+~/Task$ cp output.txt file2.txt ../dt2/mydir
+cp: target '../dt2/mydir' is not a directory
+~/Task$ cp output.txt file2.txt mydir/
+~/Task$ cd mydir
+~/Task/mydir$ ls
+file2.txt  output.txt
+~/Task/mydir$ cd ..
+~/Task$ ls
+Apending  combine.txt  file1.txt  file1_backup.txt  file2.txt  mydir  output.txt
+~/Task$ mv file2.txt mydir
+~/Task$ ls
+Apending  combine.txt  file1.txt  file1_backup.txt  mydir  output.txt
+~/Task$ cd mydir
+~/Task/mydir$ ls
+file2.txt  output.txt
+~/Task/mydir$ cd ..
+~/Task$ mkdir empty
+~/Task$ pwd
+/home/user/Task
+~/Task$ ls
+Apending  combine.txt  empty  file1.txt  file1_backup.txt  mydir  output.txt
+~/Task$ rm file1_backup.txt
+~/Task$ ls
+Apending  combine.txt  empty  file1.txt  mydir  output.txt
+~/Task$ rm -d empty
+~/Task$ ls
+Apending  combine.txt  file1.txt  mydir  output.txt
+~/Task$ mkdir testdir
+~/Task$ cd testdir
+~/Task/testdir$ touch a.txt b.txt
+~/Task/testdir$ ls
+a.txt  b.txt
+~/Task/testdir$ cd ..
+~/Task$ ls
+Apending  combine.txt  file1.txt  mydir  output.txt  testdir
+~/Task$ rm -r testdir
+~/Task$ ls
+Apending  combine.txt  file1.txt  mydir  output.txt
+~/Task$ ls
+Apending  combine.txt  file1.txt  mydir  output.txt
+~/Task$ rm output.txt file1.txt
+~/Task$ ls
+Apending  combine.txt  mydir
+~/Task$ mkdir -p a/b/c
+~/Task$ ls
+Apending  a  combine.txt  mydir
+~/Task$ 
