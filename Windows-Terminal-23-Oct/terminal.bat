@@ -5,8 +5,7 @@ C:\Users\shohan\Documents\MyFolder>echo "Hello, World!" > file1.txt
 C:\Users\shohan\Documents\MyFolder>type file1.txt 
 	"Hello, World!"
 C:\Users\shohan\Documents\MyFolder>echo > file2.txt 
-C:\Users\shohan\Documents\MyFolder>(for %i in ("First line" "Second line" "Third line") do 
-@echo %i) > file2.txt
+C:\Users\shohan\Documents\MyFolder>(for %i in ("First line" "Second line" "Third line") do @echo %i) > file2.txt
 C:\Users\shohan\Documents\MyFolder>type file2.txt 
 	"First line" 
 	"Second line" 
