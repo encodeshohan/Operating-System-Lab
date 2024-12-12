@@ -5,3 +5,4 @@ MID TERM
 - [Lab-02 [30 October 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-30-Oct)
 - [Lab-03 [06 November 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-06-Nov)
 - [Lab-04 [13 November 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-13-Nov)
+- [Lab-05 [20 November 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-20-Nov)
