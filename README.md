@@ -9,4 +9,5 @@
 ##
 ### FINAL TERM
 ##
-- [Lab-01 [11 December 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec)
+- [Lab-06 [11 December 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec)
+- [Lab-07 [18 December 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec)
