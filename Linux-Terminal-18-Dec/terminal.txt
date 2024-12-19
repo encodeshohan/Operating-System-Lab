@@ -1,0 +1,348 @@
+~$ vi new.sh
+~$ ls
+2024-12-11-file-1.term  Dec_18.term  Hello      Nov_13.term      TestFolder  data.txt     f2.txt     head.txt  linux.term  new.sh
+Abc                     Folder1      Hello,     Nov_20_Lab.term  a.txt       example.txt  file1.txt  l.txt     m.txt       user
+CP                      Folder2      NewFolder  Task             ab.sh       f1.txt       h.txt      lin.term  mydir
+~$ ls -a
+.                               .bash_history           .linux.term-0.term      CP           Nov_13.term      example.txt  lin.term
+..                              .bash_profile           .smc                    Dec_18.term  Nov_20_Lab.term  f1.txt       linux.term
+.2024-12-11-file-1.term-0.term  .bashrc                 .snapshots              Folder1      Task             f2.txt       m.txt
+.Dec_18.term-0.term             .compute-server.syncdb  .ssh                    Folder2      TestFolder       file1.txt    mydir
+.Nov_13.term-0.term             .jupyter-blobs-v0.db    .viminfo                Hello        a.txt            h.txt        new.sh
+.Nov_20_Lab.term-0.term         .lesshst                2024-12-11-file-1.term  Hello,       ab.sh            head.txt     user
+.ab.sh.swp                      .lin.term-0.term        Abc                     NewFolder    data.txt         l.txt
+~$ chmod 777
+chmod: missing operand after ‘777’
+Try 'chmod --help' for more information.
+~$ chmod 777 new.sh
+~$ ./new.sh
+Good Afternoon
+~$ ls -l
+total 22
+-rw-r--r-- 1 user user   0 Dec 11 09:18 2024-12-11-file-1.term
+-rw-r--r-- 1 user user   0 Nov 13 08:28 Abc
+drwxr-xr-x 5 user user   5 Nov  6 09:28 CP
+-rw-r--r-- 1 user user   0 Dec 18 08:07 Dec_18.term
+drwxr-xr-x 2 user user   6 Nov  6 08:41 Folder1
+drwxr-xr-x 2 user user   7 Nov  6 08:58 Folder2
+-rw-r--r-- 1 user user   0 Nov 13 08:28 Hello
+-rw-r--r-- 1 user user   0 Nov 13 08:28 Hello,
+drwxr-xr-x 3 user user   3 Nov 20 08:58 NewFolder
+-rw-r--r-- 1 user user   0 Nov 13 10:12 Nov_13.term
+-rw-r--r-- 1 user user   0 Nov 20 09:49 Nov_20_Lab.term
+drwxr-xr-x 4 user user   8 Nov  6 10:33 Task
+drwxr-xr-x 2 user user   2 Nov 20 08:23 TestFolder
+-rwxrwxrwx 1 user user  95 Nov 13 08:39 a.txt
+-rwxrwxrwx 1 user user 142 Dec 11 09:49 ab.sh
+-rw-r--r-- 1 user user  30 Nov 20 08:25 data.txt
+-rw-r--r-- 1 user user   0 Nov 20 08:22 example.txt
+-rwxr-xrw- 1 user user  25 Nov 13 09:00 f1.txt
+-rw-r--r-- 1 user user  39 Nov 13 09:02 f2.txt
+-rw-r--r-- 1 user user   0 Nov  6 09:51 file1.txt
+-rw-r--r-- 1 user user  12 Nov 20 09:50 h.txt
+-rw-r--r-- 1 user user  92 Nov 20 09:54 head.txt
+-rw-r--r-- 1 user user   9 Nov 20 09:51 l.txt
+-rw-r--r-- 1 user user   0 Nov  6 09:53 lin.term
+-rw-r--r-- 1 user user   0 Nov 13 08:22 linux.term
+-rw-r--r-- 1 user user  21 Nov 20 09:51 m.txt
+drwxr-xr-x 2 user user   2 Nov  6 09:51 mydir
+-rwxrwxrwx 1 user user  32 Dec 18 08:10 new.sh
+-rw-r--r-- 1 user user   0 Nov 20 08:17 user
+~$ ./new.sh
+Good Afternoon
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+expr: syntax error: unexpected argument ‘+6’
+
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+5
+3
+2024-12-11-file-1.term Abc CP Dec_18.term Folder1 Folder2 Hello Hello, NewFolder Nov_13.term Nov_20_Lab.term Task TestFolder a.txt ab.sh data.txt example.txt f1.txt f2.txt file1.txt h.txt head.txt l.txt lin.term linux.term m.txt mydir new.sh user
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+5
+3
+expr: non-integer argument
+
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+5
+3
+2024-12-11-file-1.term Abc CP Dec_18.term Folder1 Folder2 Hello Hello, NewFolder Nov_13.term Nov_20_Lab.term Task TestFolder a.txt ab.sh data.txt example.txt f1.txt f2.txt file1.txt h.txt head.txt l.txt lin.term linux.term m.txt mydir new.sh user
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+5
+3
+15
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+11
+4
+11
+5
+4
+20
+Multiplication of 5 and 4 is: 20
+~$ vi new.sh
+~$ ./new.sh
+Good Afternoon
+10
+2
+11
+4
+11
+20
+Multiplication of 10 and 2 is: 20
+5
+Division of 10 and 2 is: 5
+~$ vi new.sh
+~$ vi new.sh
+~$ vi new1
+~$ chmod 777 new1.sh
+chmod: cannot access 'new1.sh': No such file or directory
+~$ ls
+2024-12-11-file-1.term  Dec_18.term  Hello      Nov_13.term      TestFolder  data.txt     f2.txt     head.txt  linux.term  new.sh
+Abc                     Folder1      Hello,     Nov_20_Lab.term  a.txt       example.txt  file1.txt  l.txt     m.txt       new1
+CP                      Folder2      NewFolder  Task             ab.sh       f1.txt       h.txt      lin.term  mydir       user
+~$ vi equal.sh
+~$ ./equal.sh
+bash: ./equal.sh: Permission denied
+~$ chmod 777 equal.sh
+~$ ./equal.sh
+bash: ./equal.sh: bin/bash: bad interpreter: No such file or directory
+~$ ls -l
+total 24
+-rw-r--r-- 1 user user   0 Dec 11 09:18 2024-12-11-file-1.term
+-rw-r--r-- 1 user user   0 Nov 13 08:28 Abc
+drwxr-xr-x 5 user user   5 Nov  6 09:28 CP
+-rw-r--r-- 1 user user   0 Dec 18 08:53 Dec_18.term
+drwxr-xr-x 2 user user   6 Nov  6 08:41 Folder1
+drwxr-xr-x 2 user user   7 Nov  6 08:58 Folder2
+-rw-r--r-- 1 user user   0 Nov 13 08:28 Hello
+-rw-r--r-- 1 user user   0 Nov 13 08:28 Hello,
+drwxr-xr-x 3 user user   3 Nov 20 08:58 NewFolder
+-rw-r--r-- 1 user user   0 Nov 13 10:12 Nov_13.term
+-rw-r--r-- 1 user user   0 Nov 20 09:49 Nov_20_Lab.term
+drwxr-xr-x 4 user user   8 Nov  6 10:33 Task
+drwxr-xr-x 2 user user   2 Nov 20 08:23 TestFolder
+-rwxrwxrwx 1 user user  95 Nov 13 08:39 a.txt
+-rwxrwxrwx 1 user user 142 Dec 11 09:49 ab.sh
+-rw-r--r-- 1 user user  30 Nov 20 08:25 data.txt
+-rwxrwxrwx 1 user user 159 Dec 18 08:59 equal.sh
+-rw-r--r-- 1 user user   0 Nov 20 08:22 example.txt
+-rwxr-xrw- 1 user user  25 Nov 13 09:00 f1.txt
+-rw-r--r-- 1 user user  39 Nov 13 09:02 f2.txt
+-rw-r--r-- 1 user user   0 Nov  6 09:51 file1.txt
+-rw-r--r-- 1 user user  12 Nov 20 09:50 h.txt
+-rw-r--r-- 1 user user  92 Nov 20 09:54 head.txt
+-rw-r--r-- 1 user user   9 Nov 20 09:51 l.txt
+-rw-r--r-- 1 user user   0 Nov  6 09:53 lin.term
+-rw-r--r-- 1 user user   0 Nov 13 08:22 linux.term
+-rw-r--r-- 1 user user  21 Nov 20 09:51 m.txt
+drwxr-xr-x 2 user user   2 Nov  6 09:51 mydir
+-rwxrwxrwx 1 user user 300 Dec 18 08:50 new.sh
+-rw-r--r-- 1 user user  27 Dec 18 08:54 new1
+-rw-r--r-- 1 user user   0 Nov 20 08:17 user
+~$ ./equal.sh
+bash: ./equal.sh: bin/bash: bad interpreter: No such file or directory
+~$ vi equal.sh
+~$ vi equal.sh
+~$ ./equal.sh
+Enter a value: 5
+Enter a value: 5
+The values are Equal
+~$ vi equal.sh
+~$ vi multipleIf.sh
+~$ vi equal.sh
+~$ vi multipleIf.sh
+~$ ./multipleIf.sh
+bash: ./multipleIf.sh: Permission denied
+~$ chmod 777 multipleIf.sh
+~$ ./multipleIf.sh
+Enter a value: 5
+Enter a value: 2
+5 is greater than 2
+~$ vi multipleIf.sh
+~$ ./multipleIf.sh
+Enter a value: 6
+Enter a value: 2
+6 is greater than 2
+~$ vi multipleIf.sh
+~$ 2
+bash: 2: command not found
+~$ ./multipleIf.sh
+Enter a value: 2
+Enter a value: 5
+2 is less than 5
+~$ vi compStr.sh
+~$ ./multipleIf.sh
+Enter a value: ^Z
+[1]+  Stopped                 ./multipleIf.sh
+~$ vi multipleIf.sh
+~$ vi compStr.sh
+~$ chmod 777 compStr.sh
+~$ ./compStr.sh
+Enter the First String: Abu
+Enter the Second String:Babu
+The Strings are Not Equal
+~$ vi compStr.sh
+~$ ./compStr.sh
+Enter the First String: Hello
+Enter the Second String:Hello
+The Strings are Equal
+~$ ./compStr.sh
+Enter the First String: hello
+Enter the Second String:Hello
+The Strings are Not Equal
+~$ vi compStr.sh
+~$ vi new.sh
+~$ # Control Flow Staements
+~$ # Switch Case
+~$ vi case,sh
+~$ ls 
+2024-12-11-file-1.term  Folder1  NewFolder        TestFolder  compStr.sh   f1.txt     head.txt    m.txt          new1
+Abc                     Folder2  Nov_13.term      a.txt       data.txt     f2.txt     l.txt       multipleIf.sh  user
+CP                      Hello    Nov_20_Lab.term  ab.sh       equal.sh     file1.txt  lin.term    mydir
+Dec_18.term             Hello,   Task             case,sh     example.txt  h.txt      linux.term  new.sh
+~$ vi case.sh
+~$ chmod 777 case.sh
+~$ ./case.sh
+Enter a Number Between 1 and 7: 5
+FRIDAY
+~$ vi case.sh
+~$ ./case.sh
+Enter a Number Between 1 and 7: 4
+THRUSDAY
+~$ vi calculator.sh
+~$ ./calculator.sh
+bash: ./calculator.sh: Permission denied
+~$ chmod 777 calculator.sh
+~$ ./calculator.sh
+Enter First Number: 5
+Enter Second Number: 5
+Enter the Operator(+, -, *, /): +
+10
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 5
+Enter Second Number: \*
+Enter the Operator(+, -, *, /): ^Z
+[1]+  Stopped                 ./calculator.sh
+~$ ./calculator.sh
+Enter First Number: 5
+Enter Second Number: 4
+Enter the Operator(+, -, *, /): \*
+./calculator.sh: line 8: n1 \* n2: syntax error: invalid arithmetic operator (error token is "\* n2")
+~$ ./calculator.sh
+Enter First Number: 5
+Enter Second Number: 4
+Enter the Operator(+, -, *, /): *
+./calculator.sh: line 8: n1 \* n2: syntax error: invalid arithmetic operator (error token is "\* n2")
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 5
+Enter Second Number: 2
+Enter the Operator(+, -, *, /): -
+3
+~$ ./calculator.sh
+Enter First Number: 10
+Enter Second Number: 2
+Enter the Operator(+, -, *, /): /
+5
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 10
+Enter Second Number: 4
+Enter the Operator(+, -, *, /): *
+./calculator.sh: line 8: n1 \* n2: syntax error: invalid arithmetic operator (error token is "\* n2")
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 10
+Enter Second Number: 4
+Enter the Operator(+, -, *, /): \
+*
+./calculator.sh: line 8: syntax error near unexpected token `echo'
+./calculator.sh: line 8: `      \) echo $((n1 \* n2)) ;;'
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 10
+Enter Second Number: 4 
+Enter the Operator(+, -, *, /): *
+Invalid Input
+~$ ./calculator.sh
+Enter First Number: 10
+Enter Second Number: 4
+Enter the Operator(+, -, *, /): /*
+Invalid Input
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 10
+Enter Second Number: 4
+Enter the Operator(For Addition(+), For Sub (-), For Mul(m), For Div (/) ): m
+./calculator.sh: line 8: n1 \* n2: syntax error: invalid arithmetic operator (error token is "\* n2")
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 4
+Enter Second Number: 4
+Enter the Operator(For Addition(+), For Sub (-), For Mul(m), For Div (/) ): m
+./calculator.sh: line 8: 4 \* 4: syntax error: invalid arithmetic operator (error token is "\* 4")
+~$ ./new.sh
+Good Afternoon
+^Z
+[2]+  Stopped                 ./new.sh
+~$ vi new.sh
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 4
+Enter Second Number: 4
+Enter the Operator(For Addition(+), For Sub (-), For Mul(m), For Div (/) ): m
+16
+~$ vi calculator.sh
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 5
+Enter Second Number: 5
+Enter the Operator(For Addition(+), For Sub (-), For Mul(m), For Div (/) ): +
+Addition of 5 and 5 is:  10
+~$ vi calculator.sh
+~$ ./calculator.sh
+Enter First Number: 16
+Enter Second Number: 4
+Enter the Operator(For Addition(+), For Sub (-), For Mul(m), For Div (/) ): /
+Division of 16 and 4 is:  4
+~$ 
