@@ -11,3 +11,13 @@
 ##
 - [Lab-06 [11 December 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec)
 - [Lab-07 [18 December 2024]](https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec)
+<table>
+  <th>
+    <td>
+      MID TERM
+    </td>
+  <td>
+      FINAL TERM
+    </td>
+  </th>
+</table>
