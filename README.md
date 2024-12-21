@@ -12,7 +12,7 @@
     <td>
       <ul>
         <li>
-          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct">Lab-01 [23 October 2024]</a> <br>
+          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct" text-decoratiom = "none">Lab-01 [23 October 2024]</a> <br>
         </li>
       </ul>
       <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct">Lab-01 [23 October 2024]</a> <br>
