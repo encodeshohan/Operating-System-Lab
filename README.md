@@ -1,7 +1,7 @@
 <table>
   <tr>
     <th colspan = "2">
-      Operating System Lab
+      <h2>Operating System Lab</h2>
     </th>
   </tr>
   <tr>
