@@ -29,8 +29,14 @@
       </ul>      
     </td>
     <td>
-      <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec">Lab-06 [11 December 2024]</a> <br>
-      <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec">Lab-07 [18 December 2024]</a>
+      <ul>
+        <li>
+          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec">Lab-06 [11 December 2024]</a>
+        </li>
+        <li>
+          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec">Lab-07 [18 December 2024]</a>
+        </li>
+      </ul>
     </td>
   </tr>
 </table>
