@@ -1,4 +1,3 @@
-# Operating-System-Lab
 <table>
   <tr>
     <th colspan = "2">
