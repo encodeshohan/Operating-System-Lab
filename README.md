@@ -1,6 +1,11 @@
 # Operating-System-Lab
 <table>
   <tr>
+    <th colspan = "2">
+      Operating System Lab
+    </th>
+  </tr>
+  <tr>
     <th>
       MID TERM
     </th>
