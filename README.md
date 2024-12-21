@@ -1,15 +1,20 @@
 # Operating-System-Lab
 <table>
   <tr>
-    <td>
+    <th>
       MID TERM
-    </td>
-    <td>
+    </th>
+    <th>
       FINAL TERM
-    </td>
+    </th>
   </tr>
   <tr>
     <td>
+      <ul>
+        <li>
+          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct">Lab-01 [23 October 2024]</a> <br>
+        </li>
+      </ul>
       <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct">Lab-01 [23 October 2024]</a> <br>
       <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-30-Oct">Lab-02 [30 October 2024]</a> <br>
       <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-06-Nov">Lab-03 [06 November 2024]</a> <br>
