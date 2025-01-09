@@ -41,7 +41,7 @@
           <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec">Lab-07 [18 December 2024]</a>
         </li>
         <li>
-          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-08-Jan">Lab-07 [08 January 2025]</a>
+          <a href = "https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-08-Jan">Lab-08 [08 January 2025]</a>
         </li>
       </ul>
     </td>
