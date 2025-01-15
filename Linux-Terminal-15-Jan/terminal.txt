@@ -1,0 +1,62 @@
+~$ vi array.sh
+~$ chmod 777 array.sh
+~$ ./array.sh
+bash: ./array.sh: bin/bash: bad interpreter: No such file or directory
+~$ vi array.sh
+~$ ./array.sh
+bash: ./array.sh: bin/bash: bad interpreter: No such file or directory
+~$ vi array.sh
+~$ vi array.sh
+~$ ./array.sh
+ubuntu,
+windows,
+linux
+~$ vi array.sh
+~$ ./array.sh
+ubuntu,
+windows,
+linux
+
+3
+~$ vi array.sh
+~$ ./array.sh
+ubuntu,
+windows,
+linux
+
+3
+ubuntu,
+windows,
+linux
+~$ vi array.sh
+~$ vi arrayInput.sh
+~$ chmod 777 arrayInput.sh
+~$ ./arrayInput.sh
+Enter 2 Integer Seperated by Sapace: 
+2 4
+The Sum of The Array Elements is : 6
+~$ ./arrayInput.sh
+Enter 2 Integer Seperated by Sapace: 
+2 3 4 5 6 4 7 8
+The Sum of The Array Elements is : 39
+~$ vi fileParsing.sh
+\~$ ./fileParsing.sh
+bash: ./fileParsing.sh: Permission denied
+~$ chmod 777 fileParsing.sh
+~$ ./fileParsing.sh
+
+./fileParsing.sh: line 14: dat.txt: No such file or directory
+~$ vi fileParsing.sh
+~$ ./fileParsing.sh
+
+Name: Name Name, ID: ID
+Name: MD. SHOHANUR RAHMAN SHOHAN, ID: 46013
+Name: Rafiul Hassan , ID: 47048
+Name: Abu Towsif, ID: 47019
+Name: Farjana Opi, ID: 47018
+~$ vi fileParsing.sh
+~$ vi function.sh
+~$ chmod 777 function.sh
+~$ ./function.sh
+Oh! Actually, it Works
+~$ 
