@@ -36,6 +36,34 @@ This repository contains lab exercises and assignments for the **Operating Syste
   </tr>
 </table>
 
+## 🚀 How to Run  
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/encodeshohan/Operating-System-Lab.git
+   ```
+2. **Navigate to the project directory**:  
+   ```bash
+   cd Operating-System-Lab
+   ```
+3. **Compile the code** (for C programs):  
+   ```bash
+   gcc filename.c -o output
+   ```
+4. **Run the executable**:  
+   ```bash
+   ./output
+   ```
+5. **Run Shell Scripts**:  
+   ```bash
+   bash script.sh
+   ```
+
+## 📊 Key Learnings  
+✔ Understanding OS fundamentals through hands-on coding.  
+✔ Implementing CPU scheduling algorithms like FCFS, SJF, and Round Robin.  
+✔ Memory management techniques, including paging and segmentation.  
+✔ Handling concurrency using process synchronization techniques.  
+
 ## 🛠️ Technologies Used
 - **Operating Systems:** Windows, Linux (Ubuntu)
 - **Tools:** Windows Terminal, Linux Bash Shell, CoCalc
