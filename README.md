@@ -43,10 +43,7 @@ This repository contains lab exercises and assignments for the **Operating Syste
    ```
 
 ## 📊 Key Learnings  
-✔ Understanding OS fundamentals through hands-on coding.  
-✔ Implementing CPU scheduling algorithms like FCFS, SJF, and Round Robin.  
-✔ Memory management techniques, including paging and segmentation.  
-✔ Handling concurrency using process synchronization techniques.  
+✔ Understanding OS fundamentals through hands-on coding. 
 
 ## 🛠️ Technologies Used
 - **Operating Systems:** Windows, Linux (Ubuntu)
