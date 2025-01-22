@@ -45,10 +45,10 @@ This repository contains lab exercises and assignments for the **Operating Syste
 ## 📊 Key Learnings  
 ✔ Understanding OS fundamentals through hands-on coding. 
 
-## 🛠️ Technologies Used
-- **Operating Systems:** Windows, Linux (Ubuntu)
-- **Tools:** Windows Terminal, Linux Bash Shell, CoCalc
-- **Languages:** Shell Scripting, Batch Scripting
+## 🛠️ Technologies Used  
+- **Platform**: CoCalc (Linux)  
+- **Programming Languages**: Shell Scripting  
+- **Tools**: GCC, GDB, Bash  
 
 ## 🤝 Contributing
 Feel free to fork, open issues, or submit pull requests to improve this repository!
