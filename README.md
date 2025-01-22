@@ -36,7 +36,7 @@ This repository contains lab exercises and assignments for the **Operating Syste
   </tr>
 </table>
 
-## 🛠 How to Use 
+## ⚙ How to Use 
 **Clone the repository**:  
    ```bash
    git clone https://github.com/encodeshohan/Operating-System-Lab.git
