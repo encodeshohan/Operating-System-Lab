@@ -12,8 +12,8 @@ This repository contains lab exercises and assignments for the **Operating Syste
     </th>
   </tr>
   <tr>
-    <th>📌 MID TERM</th>
-    <th>📌 FINAL TERM</th>
+    <th>🛡️ MID TERM</th>
+    <th>🛡️ FINAL TERM</th>
   </tr>
   <tr>
     <td>
