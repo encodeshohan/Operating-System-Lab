@@ -1,6 +1,6 @@
 # 📌 Operating System Lab
 
-## 📌 Overview
+## ✨ Overview
 This repository contains lab exercises and assignments for the **Operating System Lab** course. It covers essential topics such as command-line operations, process management, memory management, and shell scripting. Labs are divided into **Mid-Term** and **Final-Term** sections.
 
 ## 📂 Lab Contents
