@@ -37,25 +37,9 @@ This repository contains lab exercises and assignments for the **Operating Syste
 </table>
 
 ## 🚀 How to Run  
-1. **Clone the repository**:  
+**Clone the repository**:  
    ```bash
    git clone https://github.com/encodeshohan/Operating-System-Lab.git
-   ```
-2. **Navigate to the project directory**:  
-   ```bash
-   cd Operating-System-Lab
-   ```
-3. **Compile the code** (for C programs):  
-   ```bash
-   gcc filename.c -o output
-   ```
-4. **Run the executable**:  
-   ```bash
-   ./output
-   ```
-5. **Run Shell Scripts**:  
-   ```bash
-   bash script.sh
    ```
 
 ## 📊 Key Learnings  
