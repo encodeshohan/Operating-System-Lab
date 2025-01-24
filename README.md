@@ -17,21 +17,44 @@ This repository contains lab exercises and assignments for the **Operating Syste
   </tr>
   <tr>
     <td>
-      <ul>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct">Lab-01 [23 Oct 2024]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-30-Oct">Lab-02 [30 Oct 2024]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-06-Nov">Lab-03 [06 Nov 2024]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-13-Nov">Lab-04 [13 Nov 2024]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-20-Nov">Lab-05 [20 Nov 2024]</a></li>
-      </ul>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Windows-Terminal-23-Oct">Lab-01</a>
     </td>
     <td>
-      <ul>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec">Lab-06 [11 Dec 2024]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec">Lab-07 [18 Dec 2024]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-08-Jan">Lab-08 [08 Jan 2025]</a></li>
-        <li><a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-15-Jan">Lab-09 [15 Jan 2025]</a></li>
-      </ul>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-30-Oct">Lab-02</a>
+    </td>
+    <td>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-06-Nov">Lab-03</a>
+    </td>
+    <td>
+      
+    </td>
+    <td>
+      
+    </td>
+    <td>
+      
+    </td>
+    <td>
+      
+    </td>
+    <td>
+      
+    </td>
+    <td>
+      
+    </td>
+    <td>
+        
+        
+        
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-13-Nov">Lab-04 [13 Nov 2024]</a>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-20-Nov">Lab-05 [20 Nov 2024]</a>
+    </td>
+    <td>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-11-Dec">Lab-06 [11 Dec 2024]</a>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-18-Dec">Lab-07 [18 Dec 2024]</a>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-08-Jan">Lab-08 [08 Jan 2025]</a>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-15-Jan">Lab-09 [15 Jan 2025]</a>
     </td>
   </tr>
 </table>
