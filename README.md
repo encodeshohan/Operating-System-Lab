@@ -44,7 +44,7 @@ This repository contains lab exercises and assignments for the **Operating Syste
         <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-15-Jan">Lab-09</a>
     </td>
     <td>  
-        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Linux-Terminal-15-Jan">Final-Assignment</a>
+        <a href="https://github.com/encodeshohan/Operating-System-Lab/tree/main/Final-Assignment">Final-Assignment</a>
     </td>
   </tr>
 </table>
